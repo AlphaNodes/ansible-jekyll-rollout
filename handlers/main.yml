@@ -1,0 +1,6 @@
+---
+
+- name: jekyll rollout bundler update
+  command: bundler update
+  args:
+    chdir: '{{ jekyll_dir }}'

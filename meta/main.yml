@@ -1,7 +1,9 @@
 ---
+dependencies: []
 
 galaxy_info:
-  role_name: jekyll-rollout
+  role_name: jekyll_rollout
+  namespace: alphanodes
   description: Run jekyll build
   author: alexandermeindl
   company: AlphaNodes GmbH

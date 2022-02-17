@@ -8,8 +8,8 @@ Rollout jekyll repositories
 
 Using ansible galaxy cli:
 
-```bash
-ansible-galaxy install alphanodes.jekyll-rollout
+```shell
+ansible-galaxy install alphanodes.jekyll_rollout
 ```
 
 ## Role Variables
@@ -30,7 +30,7 @@ ruby, bundle and git has to be installed.
         repo: git@github.com:myname/myrepo.git
         repo_version: main
   roles:
-    - AlphaNodes.jekyll-rollout
+    - alphanodes.jekyll_rollout
 ```
 
 ## License

@@ -3,4 +3,4 @@
   hosts: all
 
   roles:
-    - role: AlphaNodes.jekyll-rollout
+    - role: alphanodes.jekyll_rollout
